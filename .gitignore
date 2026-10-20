@@ -1,0 +1,38 @@
+# Generated requests, responses, reports, and local task/audit logs
+/out/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+secrets/
+credentials.json
+*credentials*.json
+*.pem
+*.key
+
+# Editor / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# Recordings and generated delivery packages
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.zip
